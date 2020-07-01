@@ -1,5 +1,5 @@
 @extends("layout.app")
-
+@section("title","Home")
 @section("content")
 <h1>SanberBook</h1>
 <h2>Social Media Developer Santai Berkualitas</h2>
@@ -13,7 +13,7 @@
 <h3>Cara Bergabung ke SanberBook</h3>
 <ol>
   <li>Mengunjungi Website ini</li>
-  <li>Mendaftar di <a href="/signup">Form Sign Up</a></li>
+  <li>Mendaftar di <a href="/register">Form Sign Up</a></li>
   <li>Selesai!</li>
 </ol>
 @endsection

@@ -13,8 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('landpage');
-});
-
-Route::view('welcome', 'welcome');
+Route::get('/', 'homeController@index');
+Route::get('register', 'AuthController@index');
+Route::post('welcome', 'AuthController@welcome');
